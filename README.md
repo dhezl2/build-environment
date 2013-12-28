@@ -29,3 +29,5 @@ This will install all necessary dependencies and create the `docs/` and `build/`
 
 ##Where to go from here##
 This is obviously a work in progress, and just a tool for setting up personal projects that is in line with how I am personally working at present. I'll probably add either Backbone or Angular support into this soon, and am considering switching testing from Mocha to Jasmine, as well as using something like Selenium to automate browsers.  We'll see.
+
+One thing that does need doing:  At present, there is a bit of wonkiness in the task flow that can occasionally give rise to running unit tests more than once.  That doesn't really bug me too much at present, but it probably will before long.  I'll fix it soonish.
