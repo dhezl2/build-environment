@@ -14,7 +14,7 @@ Javascript module documentation is supported with inclusion of YUIdocs. The `doc
 The current configuration is to use grunt-contrib-watch to watch for changes made to source and test files, and grunt-contrib-connect to keep those changes active. This environment also supports the Chrome plugin LiveReload.
 
 ##How to use##
-This environment requires both node.js and npm to be installed.
+This environment requires both [node.js](http://www.nodejs.org) and [npm](http://www.npmjs.org) to be installed. It is also helpful to have a global intallation of [Grunt](http://www.gruntjs.com).
 All necessary modules are listed in `package.json`.  To set up the environment, simply clone it and run the following:
 
     $npm install
