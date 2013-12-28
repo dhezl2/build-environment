@@ -16,8 +16,10 @@ The current configuration is to use grunt-contrib-watch to watch for changes mad
 ##How to use##
 This environment requires both node.js and npm to be installed.
 All necessary modules are listed in `package.json`.  To set up the environment, simply clone it and run the following:
+
     $npm install
     $grunt build
+
 This will install all necessary dependencies and create the `docs/` and `build/` directories.
 
 ####Tasks####
