@@ -1,7 +1,6 @@
 ##Intro##
 This is a boilerplate development/build environment for front-end development. Tools are included for building, testing, creating JS documentation, and operating a continuous build server.
 
-
 ####Building####
 Automated build will compile .jade and .sass files, compile ([Browserify](http://www.browserify.org)) CommonJS modules, minify the compiled Javascript and CSS, and clean out all extraneous files created in the process.
 
