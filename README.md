@@ -5,7 +5,7 @@ This is a boilerplate development/build environment for front-end development. T
 Automated build will compile .jade and .sass files, compile ([Browserify](http://www.browserify.org)) CommonJS modules, minify the compiled Javascript and CSS, and clean out all extraneous files created in the process.
 
 ####Testing####
-Currently, the environment supports unit and integration testing using [Mocha](http://visionmedia.github.io/mocha/) and [Chai](http://chaijs.com/).  This can be run in a headless fashion with PhantomJS, or run in the browser at `test/index.html`.
+Currently, the environment supports unit and integration testing using [Mocha](http://mochajs.org/) and [Chai](http://chaijs.com/).  This can be run in a headless fashion with PhantomJS, or run in the browser at `test/index.html`.
 
 ####Documentation####
 Javascript module documentation is supported with inclusion of [YUIdoc](http://yui.github.io/yuidoc/). The `docs/` directory will be created upon first build.
